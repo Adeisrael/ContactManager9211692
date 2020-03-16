@@ -10,5 +10,9 @@ namespace ContactManager9211692
     {
         private string contactBusinessTel { get; set; }
 
+        private void test()
+        {
+
+        }
     }
 }

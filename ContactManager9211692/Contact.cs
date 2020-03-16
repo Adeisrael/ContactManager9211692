@@ -17,7 +17,10 @@ namespace ContactManager9211692
         private string contactCity { get; set; }
         private string contactPostcode { get;set; }
 
-        
+        private void test()
+        {
+
+        }
     }
 
     

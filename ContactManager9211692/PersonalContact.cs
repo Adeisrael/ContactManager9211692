@@ -9,5 +9,10 @@ namespace ContactManager9211692
     class PersonalContact: Contact
     {
         private string contactHomeTel { get; set;}
+
+        private void test()
+        {
+
+        }
     }
 }
