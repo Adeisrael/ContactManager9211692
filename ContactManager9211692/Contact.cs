@@ -12,15 +12,53 @@ namespace ContactManager9211692
         private string contactFname { get; set; }
         private string contactLname { get; set; }
         private string contactTel { get; set; }
-        private string contactfirstLine { get; set;}
-        private string contactsecondLine { get; set; }
+        private string contactAddr1 { get; set;}
+        private string contactAddr2 { get; set; }
         private string contactCity { get; set; }
         private string contactPostcode { get;set; }
 
-        private void test()
-        {
-
+        public int getID () 
+        { 
+            return ID;
         }
+
+        
+        public string getcontactFname()
+        {
+            return contactFname;
+        }
+
+        public string getcontactLname()
+        {
+            return contactLname;
+        }
+
+        public string getcontactTel()
+        {
+            return contactTel;
+        }
+
+        public string getcontactAddr1()
+        {
+            return contactAddr1;
+        }
+
+        public string getcontactAddr2()
+        {
+            return contactAddr2;
+        }
+
+        public string getcontactCity()
+        {
+            return contactCity;
+        }
+
+        public string getcontactPostcode()
+        {
+            return contactPostcode;
+        }
+
+       
     }
 
     
