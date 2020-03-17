@@ -8,11 +8,10 @@ namespace ContactManager9211692
 {
     class BusinessContact:Contact
     {
-        private string contactBusinessTel { get; set; }
+        private string contactBusinessTel;
+            public string ContactBusinessTel
 
-        private void test()
-        {
+        { get { return contactBusinessTel;  } set { contactBusinessTel= value; } }
 
-        }
     }
 }
