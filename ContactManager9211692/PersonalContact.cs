@@ -8,11 +8,15 @@ namespace ContactManager9211692
 {
     class PersonalContact: Contact
     {
-        private string contactHomeTel { get; set;}
+        private string contactHomeTel;
+            public string ContactHomeTel
+        { get { return contactHomeTel; } set { contactHomeTel = value; } }
 
-        private void test()
-        {
+        
+        
 
-        }
+
+
+
     }
 }

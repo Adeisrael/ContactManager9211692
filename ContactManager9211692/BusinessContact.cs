@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace ContactManager9211692
 {
-    class BusinessContact:Contact
+    class BusinessContact : Contact
     {
-        private string contactBusinessTel { get; set; }
+        private string contactBusinessTel;
 
-        private void test()
-        {
+        public string ContactBusinessTel
 
-        }
+        { get{ return contactBusinessTel;} set{ contactBusinessTel=value;} }
+
+        
     }
 }

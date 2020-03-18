@@ -16,5 +16,20 @@ namespace ContactManager9211692
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RadioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RadioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
